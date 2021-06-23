@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Xây Dựng Hình Tròn</title>
+</head>
+<body>
+<script>
+    class Circle {
+        constructor(radius, color) {
+            this.radius = radius;
+            this.color = color;
+        }
+        getArena (){
+            return Math.PI*this.radius*this.radius;
+        }
+        getRadius (){
+            return this.radius;
+        }
+    }
+    let hinhtron = new Circle(2, "Green");
+    console.log(hinhtron.getArena());
+    console.log(hinhtron.getRadius());
+</script>
+</body>
+</html>
